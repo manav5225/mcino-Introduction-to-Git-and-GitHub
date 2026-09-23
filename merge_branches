@@ -1,12 +1,7 @@
 ﻿$ git checkout main
 Your branch is up to date with 'origin/main'.
-git : Already on 'main'
-At line:2 char:1
-+ git checkout main *>&1 | Out-File merge_temp2.txt 
--Encoding utf8 -App ...
-+ ~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (Already 
-    on 'main':String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
-$ git merge bug-fix-typo2
+$ git merge bug-fix-typo
+Updating 4fc5d75..272afef
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
