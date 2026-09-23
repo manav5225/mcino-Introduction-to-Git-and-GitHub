@@ -1,0 +1,6 @@
+﻿
+  "`$ git checkout main"
+  git checkout main
+  "`$ git merge bug-fix-typo"
+  git merge bug-fix-typo
+
